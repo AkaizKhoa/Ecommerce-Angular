@@ -1,1 +1,54 @@
-<h1>Home page</h1>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" *ngIf="popularProducts">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" [class.active]="activeIndex === 0"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1" [class.active]="activeIndex === 1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2" [class.active]="activeIndex === 2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item" *ngFor="let item of popularProducts; let i = index" [class.active]="i === activeIndex">
+      <a routerLink="/details/{{item.id}}">
+        <img src="{{item.image}}" class="d-block w-100" alt="...">
+      </a>
+      <div class="text-center">
+        <h3>{{item.name}}</h3>
+        <p>{{item.price}}</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"
+    (click)="prevSlide()">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"
+    (click)="nextSlide()">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="product-list-wrapper">
+  <h1>Trendy Products</h1>
+  <div class="row" >
+    <div class="col-sm-3" *ngFor="let item of trendyProducts">
+      <div class="product-item">
+        <img
+          src="{{item.image}}"
+          alt="hinhanh">
+        <div class="product-details">
+          <h6 class="name-head">{{item.name}}</h6>
+          <div class="product-price">
+            <h6>Price: {{item.price}}</h6>
+          </div>
+          <div class="product-color">
+            <h6>Color: {{item.color}}</h6>
+          </div>
+        </div>
+        <div class="product-footer">
+          <a routerLink="/details/{{item.id}}">View Details</a>
+          <a href="">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

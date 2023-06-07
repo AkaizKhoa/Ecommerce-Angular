@@ -1,11 +1,116 @@
 {
   "seller": [
-
     {
       "name": "Pimond",
       "password": "123",
       "email": "test@gmail.com",
       "id": 1
+    }
+  ],
+  "products": [
+    {
+      "name": "Man with a mission",
+      "price": "120000",
+      "color": "black",
+      "category": "band ",
+      "description": "\"We are a man with a mission \"",
+      "image": "https://global-uploads.webflow.com/62158cc7e1cd8f0ec3729390/63ed28864e7a681bd381b00d_man-with-a-mission-Ehf7c.jpeg",
+      "id": 5
+    },
+    {
+      "name": "milet",
+      "price": "120000",
+      "color": "black",
+      "category": "single artist",
+      "description": "singer ",
+      "image": "https://yt3.googleusercontent.com/LrLFyP6NNRV6TEUd3Tjn7SGaSnEJdbI9388rYjxXbqotn4DCAyNAHJv6FTK3aqSqfRI8LHW0=s900-c-k-c0x00ffffff-no-rj",
+      "id": 6
+    },
+    {
+      "name": "Offical Hige Dandism",
+      "price": "120000",
+      "color": "black",
+      "category": "band ",
+      "description": "\"Just a old man \"",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5b435ca1c4b22290103513c0",
+      "id": 7
+    },
+    {
+      "name": "Uverworld",
+      "price": "120000",
+      "color": "black",
+      "category": "band ",
+      "description": "\"Band music\"",
+      "image": "https://hopamchuan.com/node/get_artist_image/uverworld",
+      "id": 8
+    },
+    {
+      "name": "Goose House",
+      "price": "100000",
+      "color": "pink",
+      "category": "band ",
+      "description": "\"Band music\"",
+      "image": "https://i.scdn.co/image/ab67616d0000b273d2b115f9e1d7520da83956bb",
+      "id": 9
+    },
+    {
+      "name": "Fujikaze",
+      "price": "120000",
+      "color": "black",
+      "category": "singer",
+      "description": "\"Just a singer\"",
+      "image": "https://www.jame-world.com/media/image/2020-05/10467.jpg",
+      "id": 10
+    },
+    {
+      "name": "Yoasobi x Ayase",
+      "price": "120000",
+      "color": "black",
+      "category": "band ",
+      "description": "\"Just a band music\"",
+      "image": "https://www.uniqlo.com/jp/ja/contents/feature/ut-magazine/img/s97/hero.jpg",
+      "id": 11
+    },
+    {
+      "name": "King Gnu",
+      "price": "100000",
+      "color": "black",
+      "category": "band ",
+      "description": "\"Just a band music\"",
+      "image": "https://is5-ssl.mzstatic.com/image/thumb/Features112/v4/ec/aa/83/ecaa83c2-69a3-a4d0-47ae-31522b8ba450/mzl.obsiangv.jpg/486x486bb.png",
+      "id": 12
+    }
+  ],
+  "users": [
+    {
+      "name": "Chủ tọa",
+      "email": "chutoa@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "Khoa",
+      "email": "khoa@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "bruce",
+      "email": "bruce@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "name": "Chủ tọa đẹp zai",
+      "email": "chutoadepzai@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "Phát",
+      "email": "phat@gmail.com",
+      "password": "123",
+      "id": 5
     }
   ]
 }
